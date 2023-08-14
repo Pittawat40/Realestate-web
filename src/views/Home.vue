@@ -317,7 +317,7 @@ export default {
   text-transform: capitalize;
   overflow-x: hidden;
   scroll-behavior: smooth;
-  scroll-padding-top: 16em;
+  scroll-padding-top: 12em;
   font-size: 62.5%;
 }
 
