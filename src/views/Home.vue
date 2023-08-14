@@ -29,7 +29,11 @@ export default {
     },
     onScroll() {
       const narbar = document.querySelector(".navbar");
+      const bars = document.querySelector(".bars");
+      const staggered = document.querySelector(".staggered");
       narbar.classList.remove("active");
+      bars.classList.remove("active");
+      staggered.classList.remove("active");
     },
   },
 };
