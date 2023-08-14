@@ -372,13 +372,30 @@ section {
 }
 
 .header .navbar a {
+  position: relative;
   font-size: 1.6rem;
   font-weight: 500;
   margin: 0 2rem;
   text-transform: capitalize;
   letter-spacing: 1px;
   color: var(--white);
+  transition: 0.3s ease;
 }
+
+/* .header .navbar a::before {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background: rgb(90 126 238);
+  transition: 0.3s ease;
+}
+
+.header .navbar a:hover:before {
+  width: 100%;
+} */
 
 .header .navbar a:hover {
   color: rgb(90 126 238);
@@ -991,6 +1008,7 @@ section {
     width: 100%;
     height: 100%;
     line-height: 4rem;
+    margin-top: 1rem;
     margin-left: 0;
     overflow: hidden;
   }
