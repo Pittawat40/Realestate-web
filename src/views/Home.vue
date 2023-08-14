@@ -725,7 +725,7 @@ section {
   align-items: center;
   background: transparent;
   border-radius: 0.5rem;
-  width: 100%;
+  width: 97%;
   height: 100%;
   padding: 2rem;
   border: 0.2rem solid rgba(108, 108, 108, 0.143);
@@ -736,6 +736,10 @@ section {
 .value .container .row .box:hover,
 .contact .container .row .box:hover {
   border: var(--outline-hover);
+}
+
+.value .container .row .box:hover {
+  transform: translateX(10px);
 }
 
 .value .container .row .box span {
@@ -1087,6 +1091,10 @@ section {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     padding: 3rem 10rem;
     gap: 4rem;
+  }
+
+  .value .container .row .box {
+    width: 96%;
   }
 
   .footer .container .left a,
