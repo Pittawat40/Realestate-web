@@ -13,6 +13,7 @@ import {
   faVideo,
   faMessage,
   faLocationDot,
+  faBarsStaggered,
 } from "@fortawesome/free-solid-svg-icons";
 
 library.add(
@@ -24,7 +25,8 @@ library.add(
   faComment,
   faVideo,
   faMessage,
-  faLocationDot
+  faLocationDot,
+  faBarsStaggered
 );
 
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";

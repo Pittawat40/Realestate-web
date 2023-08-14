@@ -12,8 +12,19 @@ export default {
   methods: {
     toggleMenu() {
       const narbar = document.querySelector(".navbar");
+      const bars = document.querySelector(".bars");
+      const staggered = document.querySelector(".staggered");
+
       document.querySelector("#bars").onclick = () => {
         narbar.classList.toggle("active");
+        bars.classList.toggle("active");
+        staggered.classList.toggle("active");
+      };
+
+      document.querySelector("#staggered").onclick = () => {
+        narbar.classList.toggle("active");
+        bars.classList.toggle("active");
+        staggered.classList.toggle("active");
       };
     },
     onScroll() {
@@ -36,7 +47,10 @@ export default {
         <a href="#">contact</a>
       </button>
     </nav>
-    <a id="bars"> <font-awesome-icon icon="bars" /></a>
+    <a class="bars" id="bars"> <font-awesome-icon icon="bars" /></a>
+    <a class="staggered" id="staggered">
+      <font-awesome-icon icon="bars-staggered"
+    /></a>
   </header>
   <div class="white"></div>
 
@@ -373,6 +387,10 @@ section {
 .header svg {
   font-size: 2.5rem;
   color: var(--white);
+}
+
+.header .bars,
+.header .staggered {
   display: none;
 }
 
@@ -821,6 +839,7 @@ section {
   align-items: center;
   flex-direction: column;
   padding-top: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .start .container h3 {
@@ -983,6 +1002,16 @@ section {
     cursor: pointer;
   }
 
+  .header .staggered,
+  .header .bars.active {
+    display: none;
+  }
+
+  .header .bars,
+  .header .staggered.active {
+    display: block;
+  }
+
   .home .container,
   .value .container,
   .contact .container,
@@ -1047,10 +1076,6 @@ section {
 
   section {
     padding: 2rem;
-  }
-
-  .residencies .container .card img {
-    height: 16rem;
   }
 
   .residencies .container .head .paginate {
