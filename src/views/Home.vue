@@ -632,7 +632,7 @@ section {
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 2rem;
   margin-top: 0.5rem;
-  padding: 3rem 1rem;
+  padding: 4rem 1rem;
   border-top: 1px solid;
 }
 
@@ -644,10 +644,12 @@ section {
   padding: 2rem;
   box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .residencies .container .card:hover {
   outline: var(--outline-hover);
+  transform: translateY(-10px);
 }
 
 .residencies .container .card img {
@@ -1064,6 +1066,12 @@ section {
 
   .company .container img {
     width: 18rem;
+  }
+}
+
+@media (max-width: 595px) {
+  .residencies .container .card:hover {
+    transform: none;
   }
 }
 
