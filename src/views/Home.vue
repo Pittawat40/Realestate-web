@@ -1163,5 +1163,9 @@ section {
   .contact .container .content span:nth-child(2) {
     font-size: 2.4rem;
   }
+
+  .residencies .container .content {
+    padding: 3rem 8rem;
+  }
 }
 </style>
