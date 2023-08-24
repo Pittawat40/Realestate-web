@@ -95,7 +95,7 @@ export default {
       </div>
       <div class="right">
         <div class="img-container">
-          <img src="src/assets/1.png" alt="" />
+          <img src="/src/assets/1.png" alt="" />
         </div>
       </div>
     </div>
@@ -105,10 +105,10 @@ export default {
   <!-- section company -->
   <section class="company">
     <div class="container">
-      <img src="src/assets/logo-5.svg" alt="" />
-      <img src="src/assets/logo-1.png" alt="" />
-      <img src="src/assets/logo-6.png" alt="" />
-      <img src="src/assets/logo-4.png" alt="" />
+      <img src="/src/assets/logo-5.svg" alt="" />
+      <img src="/src/assets/logo-1.png" alt="" />
+      <img src="/src/assets/logo-6.png" alt="" />
+      <img src="/src/assets/logo-4.png" alt="" />
     </div>
   </section>
   <!-- section company -->
@@ -130,19 +130,19 @@ export default {
       </div>
       <div class="content">
         <div class="card">
-          <img src="src/assets/home-1.jpeg" alt="" />
+          <img src="/src/assets/home-1.jpeg" alt="" />
           <p><span>$</span>45,000</p>
           <p>aliva priva</p>
           <span>Ratchadaphisek Road, Huai Khwang, Bangkok 10310, Thailand</span>
         </div>
         <div class="card">
-          <img src="src/assets/home-2.jpeg" alt="" />
+          <img src="/src/assets/home-2.jpeg" alt="" />
           <p><span>$</span>90,000</p>
           <p>garden city</p>
           <span>Ratchadaphisek Road, Huai Khwang, Bangkok 10310, Thailand</span>
         </div>
         <div class="card">
-          <img src="src/assets/home-3.jpeg" alt="" />
+          <img src="/src/assets/home-3.jpeg" alt="" />
           <p><span>$</span>100,000</p>
           <p>siri vool</p>
           <span>Ratchadaphisek Road, Huai Khwang, Bangkok 10310, Thailand</span>
@@ -157,7 +157,7 @@ export default {
     <div class="container">
       <div class="left">
         <div class="img-container">
-          <img src="src/assets/value.png" alt="" />
+          <img src="/src/assets/value.png" alt="" />
         </div>
       </div>
       <div class="right">
@@ -247,7 +247,7 @@ export default {
       </div>
       <div class="right">
         <div class="img-container">
-          <img src="src/assets/contact.png" alt="" />
+          <img src="/src/assets/contact.png" alt="" />
         </div>
       </div>
     </div>
