@@ -1118,9 +1118,9 @@ section {
   }
 
   .residencies .container .content {
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-    padding: 3rem 10rem;
-    gap: 4rem;
+    grid-template-columns: auto auto;
+    padding: 2rem 0;
+    gap: 2rem;
   }
 
   .value .container .row .box {
